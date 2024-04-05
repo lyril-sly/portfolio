@@ -18,29 +18,29 @@ export default function Contact(){
         <h3 className="text-center text-white p-5">Get In Touch</h3>
         <h1 className="text-center font-bold text-3xl text-sky-500">Contact Me</h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 p-10 gap-20 text-center"> 
-            <div className="grid grid-rows-4 grid-flow-col gap-5">
-                <div className="bg-transparent  border-solid border-2 border-amber-200 rounded p-1 w-96 ml-40">
+        <div className=""> 
+            <div className="grid grid-cols-1 md:grid-cols-3 p-10 text-center">
+                <div className="bg-transparent  border-solid border-2 border-amber-200 rounded p-1 w-96">
                 <i class="fa-solid fa-envelope text-4xl text-cyan-600"></i>
                     <h2 className="text-2xl font-bold text-white">Email</h2>
                     <h4 className="text-gray-300">sylvialyril.sl@gmail.com</h4>
                     <a href="sylviadugah@gmail.com" target="_blank" className="text-sky-500">Send a Message</a>
                 </div>
 
-                <div className="bg-transparent border-solid border-2 border-amber-200 rounded p-1 w-96 ml-40">
-                <i class="fa-brands fa-instagram text-4xl text-orange-500"></i>
-                <h2 className="text-2xl font-bold text-white">Instagram</h2>
+                <div className="bg-transparent border-solid border-2 border-amber-200 rounded p-1 w-96">
+                <i class="fa-solid fa-phone text-4xl text-amber-300"></i>
+                <h2 className="text-2xl font-bold text-white">Phone</h2>
                
                 <a href="" className="text-sky-500">Send a Message</a>
                 </div>
-                <div className="bg-transparent border-solid border-2 border-amber-200 rounded p-1 w-96 ml-40 :hover">
-                <i class="fa-brands fa-whatsapp text-green-500 text-4xl"></i>
-                <h2 className="text-2xl font-bold text-white">WhatSapp</h2>
+                <div className="bg-transparent border-solid border-2 border-amber-200 rounded p-1 w-96 :hover">
+                <i class="fa-solid fa-location-dot text-4xl"></i>
+                <h2 className="text-2xl font-bold text-white">Address</h2>
                 <a href="https://api.whatsaap.com/send?phone+233248206242" target="_blank" className="text-sky-500">Send a Message</a>
                 </div>
             </div>
             <div className="p-2">
-                <form className="grid grid-rows-4 grid-flow-col gap-4 text-center bg-transparent p-2">
+                {/* <form className="grid grid-rows-4 grid-flow-col gap-4 text-center bg-transparent p-2">
                     <input type="text" className="border-solid border-2 border-amber-200 rounded p-1 w-96 bg-transparent text-gray-200" placeholder="Your full name" required/>
                     <input type="text"  className="border-solid border-2 border-amber-200 rounded  w-96 bg-transparent text-gray-200"  placeholder="Your Email" required/> 
                     <div  className="w-96 text-center bg-transparent">
@@ -53,10 +53,10 @@ export default function Contact(){
                    </div>
                    
 
-                </form>
+                {/* </form> */} 
             </div>
         </div>
-        </div>
+        {/* </div> */}
         </>
     )
 }

@@ -1,13 +1,23 @@
+import { Link } from "react-router-dom"
+
 export default function Footer(){
     return(
         <>
-        <footer class="footer section">
+
+        <div className="md:flex gap-10 ml-10">
+            <Link><i class="fa-brands fa-linkedin text-sky-600 text-4xl"></i></Link>
+            <Link><i class="fa-brands fa-github text-white text-4xl"></i></Link>
+            <Link><i class="fa-brands fa-twitter text-white text-4xl"></i></Link>
+            <Link><i class="fa-brands fa-instagram text-orange-400 text-4xl"></i></Link>
+            <Link><i class="fa-brands fa-whatsapp text-green-500 text-4xl"></i></Link>
+        </div>
+        <footer className="md: flex text-white">
       <div class="footer__container container grid">
         <div class="footer__content">
           <a href="#" class="footer__logo"> Sylvia Dugah
           </a>
         </div>
-        <div class="footer__content">
+        <div className="md:flex">
           <h3 class="footer__title">Our Address</h3>
 
           <ul class="footer__data">
@@ -34,7 +44,7 @@ export default function Footer(){
           </ul>
         </div>
       </div>
-      <p class="footer__cpright">&#169; D'Angelo. All rights reserved</p>
+      <p class="footer__cpright">&#169; sly. All rights reserved</p>
     </footer>
         
         </>
