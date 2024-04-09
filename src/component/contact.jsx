@@ -19,24 +19,29 @@ export default function Contact(){
         <h1 className="text-center font-bold text-3xl text-sky-500">Contact Me</h1>
 
         <div className=""> 
-            <div className="grid grid-cols-1 md:grid-cols-3 p-10 text-center">
-                <div className="bg-transparent  border-solid border-2 border-amber-200 rounded p-1 w-96">
+            <div className="grid grid-cols-1 md:grid-cols-3 p-5 text-center">
+                <div className="bg-transparent  border-solid border-2 border-amber-200 rounded p-1 w-96 mt-5">
                 <i class="fa-solid fa-envelope text-4xl text-cyan-600"></i>
                     <h2 className="text-2xl font-bold text-white">Email</h2>
                     <h4 className="text-gray-300">sylvialyril.sl@gmail.com</h4>
                     <a href="sylviadugah@gmail.com" target="_blank" className="text-sky-500">Send a Message</a>
                 </div>
 
-                <div className="bg-transparent border-solid border-2 border-amber-200 rounded p-1 w-96">
+                <div className="bg-transparent border-solid border-2 border-amber-200 rounded p-1 w-96 mt-5">
                 <i class="fa-solid fa-phone text-4xl text-amber-300"></i>
                 <h2 className="text-2xl font-bold text-white">Phone</h2>
-               
-                <a href="" className="text-sky-500">Send a Message</a>
+               <h2 className="text-gray-300">Let's Talk</h2>
+               <p className="text-gray-300">+233 204020455</p>
                 </div>
-                <div className="bg-transparent border-solid border-2 border-amber-200 rounded p-1 w-96 :hover">
-                <i class="fa-solid fa-location-dot text-4xl"></i>
+                <div className="bg-transparent border-solid border-2 border-amber-200 rounded p-1 w-96 mt-5 :hover">
+                <i class="fa-solid fa-location-dot text-4xl text-amber-300"></i>
                 <h2 className="text-2xl font-bold text-white">Address</h2>
-                <a href="https://api.whatsaap.com/send?phone+233248206242" target="_blank" className="text-sky-500">Send a Message</a>
+                <ul class="footer__data">
+            <li className="text-gray-300">Accra - Ghana</li>
+            <li className="text-gray-300">Adenta</li>
+            
+          </ul>
+                {/* <a href="https://api.whatsaap.com/send?phone+233248206242" target="_blank" className="text-sky-500">Send a Message</a> */}
                 </div>
             </div>
             <div className="p-2">

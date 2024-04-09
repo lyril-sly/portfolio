@@ -1,52 +1,25 @@
 import { Link } from "react-router-dom"
+import logo from '../assect/logo (2).png'
 
 export default function Footer(){
     return(
         <>
-
-        <div className="md:flex gap-10 ml-10">
-            <Link><i class="fa-brands fa-linkedin text-sky-600 text-4xl"></i></Link>
-            <Link><i class="fa-brands fa-github text-white text-4xl"></i></Link>
-            <Link><i class="fa-brands fa-twitter text-white text-4xl"></i></Link>
-            <Link><i class="fa-brands fa-instagram text-orange-400 text-4xl"></i></Link>
-            <Link><i class="fa-brands fa-whatsapp text-green-500 text-4xl"></i></Link>
-        </div>
-        <footer className="md: flex text-white">
-      <div class="footer__container container grid">
-        <div class="footer__content">
-          <a href="#" class="footer__logo"> Sylvia Dugah
-          </a>
-        </div>
-        <div className="md:flex">
-          <h3 class="footer__title">Our Address</h3>
-
-          <ul class="footer__data">
-            <li class="footer__information">Accra - Ghana</li>
-            <li class="footer__information">Adenta</li>
-            
-          </ul>
-        </div>
-        <div class="footer__content">
-          <h3 class="footer__title">Conatact Us</h3>
-
-          <ul class="footer__data">
-            <li class="footer__information">+233 204020455</li>
-
-            <div class="footer__social">
-              
-              <a href="https://www.instagram.com/" class="footer__social-link">
-                <i class="ri-instagram-line"></i>
-              </a>
-              <a href="https://www.twitter.com/" class="footer__social-link">
-                <i class="ri-twitter-x-line"></i>
-              </a>
+         <footer className="bg-slate-800 p-5 mt-10 grid grid-cols-1 md:grid-cols-3  P-1">
+          <img className='h-10 w-10 justify-center' src={logo} alt="" />
+        <div className="grid grid-cols-1 md:grid-cols-3  P-1 text-center">
+          <h5 className="text-gray-300 text-2xl font-bold">Follow Me</h5>
+          <div className="md:flex gap-10">
+            <Link to='https://www.linkedin.com/in/sylvia-dugah-7b8536183/' target="_blank"><i class="fa-brands fa-linkedin text-sky-600 text-4xl justify-center p-2"></i></Link>
+            <Link to='https://github.com/lyril-sly' target="_blank"><i class="fa-brands fa-github text-white text-4xl p-2"></i></Link>
+            <Link to='' target="_blank"><i class="fa-brands fa-twitter text-white text-4xl p-2"></i></Link>
+            <Link to='https://www.instagram.com/afi_lyril/?next=%2F&hl=en' target="_blank"><i class="fa-brands fa-instagram text-orange-400 text-4xl p-2"></i></Link>
+            <p className=" md:flex text-gray-500 ">&#169; sly. All rights reserved</p>
             </div>
-          </ul>
+           
+            {/* <Link to='' target="_blank"><i class="fa-brands fa-whatsapp text-green-500 text-4xl"></i></Link> */}
         </div>
-      </div>
-      <p class="footer__cpright">&#169; sly. All rights reserved</p>
-    </footer>
-        
+      
+        </footer>
         </>
     )
 }

@@ -30,7 +30,7 @@ export default function Skills(){
             <h2>Intermediate</h2>
             </div>
             </div>
-            <div className='border border-amber-200 rounded-2xl shadow-2xl grid grid-cols-1 md:grid-cols-2 gap-10 w-96'>
+            <div className='border border-amber-200 rounded-2xl shadow-2xl grid grid-cols-1 md:grid-cols-2 gap-10 w-96 mt-5'>
             <div>
             <h2>TAILWIND</h2>
             <img className='w-10 h-10' src={tail} alt="" />
