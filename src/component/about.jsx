@@ -1,4 +1,4 @@
-import pp from '../assect/pp2.png'
+import pp from '../asset/pp2.png'
 
 
 export default function About(){

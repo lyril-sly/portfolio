@@ -1,4 +1,4 @@
-import tail from '../assect/tailwind-removebg-preview.png'
+import tail from '../asset/tailwind-removebg-preview.png'
 
 
 export default function Skills(){
@@ -10,7 +10,7 @@ export default function Skills(){
             <div className="md:flex gap-10 text-white text-center justify-around p-5">
                 <div className='border border-amber-200 w-96 rounded-2xl  grid grid-cols-1 md:grid-cols-2 gap-10'>
                 <div>
-            <h2>HTM</h2>
+            <h2 className='py-3'>HTM</h2>
             <i class="fa-brands fa-html5 text-red text-4xl"></i>
             <h2>Experiance</h2>
             </div>
@@ -27,13 +27,13 @@ export default function Skills(){
             <div>
             <h2>REACT</h2>
             <i class="fa-brands fa-react text-sky-400 text-4xl"></i>
-            <h2>Intermediate</h2>
+            <h2 className='py-3'>Intermediate</h2>
             </div>
             </div>
             <div className='border border-amber-200 rounded-2xl shadow-2xl grid grid-cols-1 md:grid-cols-2 gap-10 w-96 mt-5'>
             <div>
-            <h2>TAILWIND</h2>
-            <img className='w-10 h-10' src={tail} alt="" />
+            <h2 className='py-3'>TAILWIND</h2>
+            <img className='w-10 h-10 m-auto' src={tail} alt="" />
             <h2>Experiance</h2>
             </div>
             <div>
@@ -52,7 +52,7 @@ export default function Skills(){
               class="fa-brands fa-envira fa-rotate-by text-green-500"
               style={{ rotate: "40deg" }}
             ></i>
-            <h2>Intermediate</h2>
+            <h2 className='py-3'>Intermediate</h2>
             </div>
             </div>
         </div>

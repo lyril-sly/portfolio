@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
-import p1 from '../assect/p1 (2).jpg'
-import p2 from '../assect/p2 (2).jpg'
-import p3 from '../assect/p3 (2).jpg'
+import p1 from '../asset/p1 (2).jpg'
+import p2 from '../asset/p2 (2).jpg'
+import p3 from '../asset/p3 (2).jpg'
 
 
 

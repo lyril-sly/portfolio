@@ -1,4 +1,4 @@
-import p1 from '../assect/pp2.png'
+// import p1 from '../assect/pp2.png'
 
 
 import { Link } from "react-router-dom";
