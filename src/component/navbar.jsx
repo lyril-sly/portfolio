@@ -11,7 +11,7 @@ export default function NavBar() {
 
     return (
         <>
-            <section className=" rounded-2xl my-2 mx-4 flex justify-between px-2.5 py-1.5">
+            <section className=" rounded-2xl my-2 mx-4 flex justify-between px-2.5 py-1.5 fixed w-full">
                 <div>
                     <img className="h-10 w-32" src={logo} alt="" />
                 </div>
@@ -25,10 +25,10 @@ export default function NavBar() {
                     {isOpen && (
                         <div className="absolute right-0 mt-6 w-48 rounded-lg shadow-xl md:flex">
                             <ul className="py-2 font-bold">
-                                <li className="text-white text-sm px-4 py-2 hover:bg-gray-700">Home</li>
-                                <li className="text-white text-sm px-4 py-2 hover:bg-gray-700">Projects</li>
-                                <li className="text-white text-sm px-4 py-2 hover:bg-gray-700">Skills</li>
-                                <li className="text-white text-sm px-4 py-2 hover:bg-gray-700">Contact</li>
+                                <li className="text-amber-600 text-sm px-4 py-2 hover:bg-gray-700"><a className="text-amber-600 text-sm px-4 py-2 hover:bg-gray-700" href="#">Home</a></li>
+                                <li className="text-white text-sm px-4 py-2 hover:bg-gray-700"><a href="#project">Projects</a></li>
+                                <li className="text-white text-sm px-4 py-2 hover:bg-gray-700"><a href="#skills">Skills</a></li>
+                                <li className="text-white text-sm px-4 py-2 hover:bg-gray-700"><a href="#contact">Contact</a></li>
                             </ul>
                             <div>
                             {/* <p className="text-white text-xs">Download Cv</p> */}
@@ -39,10 +39,10 @@ export default function NavBar() {
 
                 <div className="hidden md:block md:flex md:gap-6">
                     <ul className="text-white flex gap-4">
-                        <li className="text-base">Home</li>
-                        <li className="text-base">Projects</li>
-                        <li className="text-base">Skills</li>
-                        <li className="text-base">Contact</li>
+                        <li className="text-base"><a href="#">Home</a></li>
+                        <li className="text-base"><a href="#project">Projects</a></li>
+                        <li className="text-base"><a href="#skills">Skills</a></li>
+                        <li className="text-base"><a href="#contact">Contact</a></li>
                     </ul>
                     <div>
                     {/* <p className="text-white text-base">Download Cv</p> */}

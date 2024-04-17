@@ -4,6 +4,7 @@ import pp from '../asset/pp2.png'
 export default function About(){
     return(
         <>
+        <section id='about'>
         <div className=" ">
          
           <div className="grid grid-cols-1 md:grid-cols-2 bg-slate-800 mt-20 p-5 text-center"> 
@@ -15,6 +16,7 @@ export default function About(){
             </div>
          </div>
          </div> 
+         </section>
         </>
     )
 }

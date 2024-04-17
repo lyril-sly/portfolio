@@ -8,6 +8,7 @@ import p3 from '../asset/p3 (2).jpg'
 export default function Projects(){
     return(
         <>
+        <section id="project">
         <div className="bg-slate-800 p-5 mt-10">
             <h1 className="text-4xl text-sky-500 text-center p-10">Projects</h1>
           <div className=" md:flex gap-20  ">
@@ -31,6 +32,7 @@ export default function Projects(){
             </div>
             </div>  
         </div>
+        </section>
         </>
     )
 }

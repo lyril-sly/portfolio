@@ -14,6 +14,7 @@ export default function Contact(){
     }
     return(
         <>
+        <section id="contact">
         <div className="mt-20">
         <h3 className="text-center text-white p-5">Get In Touch</h3>
         <h1 className="text-center font-bold text-3xl text-sky-500">Contact Me</h1>
@@ -62,6 +63,7 @@ export default function Contact(){
             </div>
         </div>
         {/* </div> */}
+        </section>
         </>
     )
 }

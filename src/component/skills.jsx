@@ -5,6 +5,7 @@ export default function Skills(){
     return(
 
         <>
+        <section id='skills'>
         <div>
             <h1 className='text-center text-sky-500 text-4xl p-20'>My Skills</h1>
             <div className="md:flex gap-10 text-white text-center justify-around p-5">
@@ -57,7 +58,7 @@ export default function Skills(){
             </div>
         </div>
         </div>
-        
+        </section>
         </>
     )
 }
