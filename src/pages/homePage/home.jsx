@@ -1,6 +1,6 @@
 import About from "../../component/about";
 import Contact from "../../component/contact";
-// import Experience from "../../component/experience";
+ import Experience from "../../component/experience";
 import Footer from "../../component/footer";
 import Hero from "../../component/hero";
 import NavBar from "../../component/navbar";
@@ -13,7 +13,7 @@ export default function Home(){
         <NavBar/>
         <Hero/>
         <About/>
-        {/* <Experience/> */}
+         <Experience/> 
         <Skills/>
         <Projects/>
         <Contact/>

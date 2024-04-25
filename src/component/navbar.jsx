@@ -25,7 +25,7 @@ export default function NavBar() {
                     {isOpen && (
                         <div className="absolute right-0 mt-6 w-48 rounded-lg shadow-xl md:flex">
                             <ul className="py-2 font-bold">
-                                <li className="text-amber-600 text-sm px-4 py-2 hover:bg-gray-700"><a className="text-amber-600 text-sm px-4 py-2 hover:bg-gray-700" href="#">Home</a></li>
+                                <li className="text-amber-600 text-sm px-4 py-2 hover:bg-gray-700"><a className="text-amber-600" href="#">Home</a></li>
                                 <li className="text-white text-sm px-4 py-2 hover:bg-gray-700"><a href="#project">Projects</a></li>
                                 <li className="text-white text-sm px-4 py-2 hover:bg-gray-700"><a href="#skills">Skills</a></li>
                                 <li className="text-white text-sm px-4 py-2 hover:bg-gray-700"><a href="#contact">Contact</a></li>
